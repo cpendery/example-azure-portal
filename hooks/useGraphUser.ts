@@ -5,7 +5,7 @@ import { loginRequest } from "@/utils/msal";
 
 export interface GraphUser {
   displayName: string;
-  mail: string;
+  userPrincipalName: string;
 }
 
 export default function useGraphUser() {

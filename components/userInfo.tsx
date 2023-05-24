@@ -9,7 +9,6 @@ import GraphUserFieldToggle from "@/components/graphUserFieldToggle";
 export default function UserInfo() {
   const graphUser = useGraphUser();
   const graphUserField = useRecoilValue(GraphUserFieldState);
-  console.log(graphUser, graphUserField);
 
   let content = null;
   switch (graphUserField) {
@@ -17,7 +16,7 @@ export default function UserInfo() {
       content = `Display Name: ${graphUser?.displayName}`;
       break;
     case GraphUserFieldEnum.EMAIL:
-      content = `Email: ${graphUser?.mail}`;
+      content = `Email: ${graphUser?.userPrincipalName}`;
       break;
   }
 
