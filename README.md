@@ -1,6 +1,6 @@
 # Azure AD Example Portal
 
-This example sets up the boilerplate for an Azure AD Portal. You can see a [live version here](https://my-next-app.sebastianbenz.vercel.app). The boilerplate includes the following features:
+This example sets up the boilerplate for an Azure AD Portal. You can see a [live version here](https://example-azure-portal.vercel.app). The boilerplate includes the following features:
 
 - Recoil state management
 - SWR data fetching
